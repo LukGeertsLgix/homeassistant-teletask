@@ -4,7 +4,7 @@
     "documentation": "https://github.com/Tiemooowh/homeassistant-teletask",
     "issue_tracker": "https://github.com/Tiemooowh/homeassistant-teletask/issues",
     "requirements": [
-        "pyteletask==1.0.1"
+        "pyteletask==1.0.5"
     ],
     "codeowners": [
         "@tiemooowh"
