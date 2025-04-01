@@ -36,19 +36,19 @@ teletask:
     - doip_component: relay
       address: "1"
       name: "Electrical Socket Carport"
-      unique_id: { guid }
+      unique_id: guid
 
   light:
     - doip_component: relay
       address: "1"
       name: "Bulb Living Room"
-      unique_id: { guid }
+      unique_id: guid
 
     - doip_component: relay
       address: "31"
       brightness_address: "1"
       name: "Led Strip Bedroom 1"
-      unique_id: { guid }
+      unique_id: guid
 ```
 
 ### Global Attributes
