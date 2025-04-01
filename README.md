@@ -4,19 +4,12 @@
 
 You can only be logged into the ComNav/ZeroWire hub with the same user _once_; a subsequent login with the same user logs out the other. Since this tool/software actively polls and maintains a login session to your Hub, it can prevent you from being able to log into at the same time elsewhere (via it's website). **It is strongly recommended that you create a second user account on your Hub dedicated to just this service.**
 
-### From HACS
-
-1. Install HACS if you haven't already (see [installation guide](https://hacs.xyz/docs/setup/download)).
-2. Find and install **Teletask** integration in HACS's "Integrations" tab.
-3. Restart your Home Assistant.
-4. Add "Teletask" integration in Home Assistant's config file 'configuration.yaml'
-
 ### Manual
 
-1. Download and unzip the [repo archive](https://github.com/Tiemooowh/homeassistant-teletask/archive/refs/heads/main.zip). (You could also click "Download ZIP" after pressing the green button in the repo, alternatively, you could clone the repo from SSH add-on).
-2. Copy contents of the archive/repo into your `/config` directory.
-3. Restart your Home Assistant.
-4. Add "Teletask" integration in Home Assistant's config file 'configuration.yaml'
+1. Download and unzip the [repo archive](https://github.com/LukGeertsLgix/homeassistant-teletask/archive/refs/heads/main.zip). (You could also click "Download ZIP" after pressing the green button in the repo, alternatively, you could clone the repo from SSH add-on).
+2. Copy contents `/custom_components/teletask` of the archive/repo into your `/config/custom_components/teletask` directory.
+3. Add "Teletask" integration in Home Assistant's config file 'configuration.yaml'
+4. Restart your Home Assistant.
 
 ## Configuration
 
