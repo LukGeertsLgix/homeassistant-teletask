@@ -6,9 +6,8 @@ from .const import (
 )
 
 from homeassistant.components.light import (
+    ColorMode,
     ATTR_BRIGHTNESS,
-    COLOR_MODE_BRIGHTNESS,
-    COLOR_MODE_ONOFF,
     LightEntity,
 )
 #from homeassistant.components.teletask import DATA_TELETASK
@@ -91,8 +90,8 @@ class TeletaskLight(LightEntity):
     def color_mode(self):
         """Return the color mode of the light."""
         if self.device.supports_brightness:
-            return COLOR_MODE_BRIGHTNESS
-        return COLOR_MODE_ONOFF
+            return ColorMode.BRIGHTNESS
+        return ColorMode.ONOFF
 
     @property
     def supported_color_modes(self):
