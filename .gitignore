@@ -8,6 +8,7 @@ __pycache__/
 
 # personal test file
 test.py
+configuration.yaml
 
 # Distribution / packaging
 .Python
